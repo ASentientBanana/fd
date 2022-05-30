@@ -115,3 +115,23 @@ func Clone_into(source_path, target_path string) {
 		ErrorCleanup(write_err)
 	}
 }
+
+func Delete_file(path string) {
+	os.Remove(path)
+}
+
+func Recursive_delete(path string) {
+	os.RemoveAll(path)
+	// dir_contents, readDirErr := os.ReadDir(path)
+	// if readDirErr != nil {
+	// 	ErrorCleanup(readDirErr)
+	// }
+	// for i := 0; i < len(dir_contents); i++ {
+	// 	if dir_contents[i].IsDir() {
+	// 		Recursive_delete(path + "/" + dir_contents[i].Name())
+	// 	} else {
+	// 		fmt.Println(dir_contents[i].Name())
+	// 		os.Remove(path)
+	// 	}
+	// }
+}
