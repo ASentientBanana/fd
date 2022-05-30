@@ -1,18 +1,18 @@
-NF Ipsum is a piece of text, used by designers to fill a space where the content will eventually sit. It helps show how text will look once a piece of content is finished, during the planning phase.
+Some_new_value Ipsum is a piece of text, used by designers to fill a space where the content will eventually sit. It helps show how text will look once a piece of content is finished, during the planning phase.
 
-Filler text has been widely used for centuries, so most people are familiar with seeing NF Ipsum on a mock design. This means, when a designer sends their template to a client, they won’t get distracted by the copy on-page.
+Filler text has been widely used for centuries, so most people are familiar with seeing Some_new_value Ipsum on a mock design. This means, when a designer sends their template to a client, they won’t get distracted by the copy on-page.
 
-Read on to find out what NF Ipsum means, why we use it, and how to start creating NF Ipsum copy in your design.
+Read on to find out what Some_new_value Ipsum means, why we use it, and how to start creating Some_new_value Ipsum copy in your design.
 
  
 
-What is NF Ipsum?
-NF Ipsum, sometimes referred to as ‘lipsum’, is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved.
+What is Some_new_value Ipsum?
+Some_new_value Ipsum, sometimes referred to as ‘lipsum’, is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved.
 
 It originally comes from a Latin text, but to today’s reader, it’s seen as gibberish. This is the clever bit, as it helps show what on-page text will look like – without distracting from the main focus, the overall design.
 
-Where is NF Ipsum used?
-Traditionally, NF Ipsum was used for specimen papers in the print industry. Then, as the industry developed, the text began to show up in transfer sheets and on word processors.
+Where is Some_new_value Ipsum used?
+Traditionally, Some_new_value Ipsum was used for specimen papers in the print industry. Then, as the industry developed, the text began to show up in transfer sheets and on word processors.
 
 Today, the text can be used for any copy, both print and digital. This could include:
 
