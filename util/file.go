@@ -49,28 +49,6 @@ func Truncate_file(filePath string) error {
 	return nil
 }
 
-func ErrorCleanup(err error) {
-	panic(err)
-}
-
-func file_text_to_slice(file io.Reader) []string {
-	scan := bufio.NewScanner(file)
-	new_file_data := []string{}
-	for scan.Scan() {
-		new_file_data = append(new_file_data, scan.Text()+"\n")
-	}
-	return new_file_data
-}
-func write_file_from_array(file_contents_array []string, file *os.File) error {
-	for i := 0; i < len(file_contents_array); i++ {
-		_, wErr := file.WriteString(file_contents_array[i])
-		if wErr != nil {
-			return wErr
-		}
-	}
-	return nil
-}
-
 func Replace(path, target, new_word string) {
 	split_string := strings.Split(path, "/")
 	tmp_file_path := strings.Join(split_string[:len(split_string)-1], "/") + ".tmp_file"
@@ -122,16 +100,4 @@ func Delete_file(path string) {
 
 func Recursive_delete(path string) {
 	os.RemoveAll(path)
-	// dir_contents, readDirErr := os.ReadDir(path)
-	// if readDirErr != nil {
-	// 	ErrorCleanup(readDirErr)
-	// }
-	// for i := 0; i < len(dir_contents); i++ {
-	// 	if dir_contents[i].IsDir() {
-	// 		Recursive_delete(path + "/" + dir_contents[i].Name())
-	// 	} else {
-	// 		fmt.Println(dir_contents[i].Name())
-	// 		os.Remove(path)
-	// 	}
-	// }
 }
